@@ -1,0 +1,15 @@
+<section data-ng-controller="BookingsController" data-ng-init="findOne()">
+	<div class="page-header">
+		<h1>Congratulations {{booking.customer.name}}!</h1>
+	</div>
+	<div class="pull-right" data-ng-show="((authentication.user) && (authentication.user._id == booking.user._id))">
+	</div>
+	<small>
+		<em class="text-muted">
+			Booked on
+			<span data-ng-bind="booking.created | date:'mediumDate'"></span>
+			by
+			<span data-ng-bind="booking.user.displayName"></span>
+		</em>
+	</small>
+</section>

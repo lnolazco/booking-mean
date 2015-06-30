@@ -1,0 +1,30 @@
+<div class="col-md-6">
+    <label class="control-label" for="from">From</label>
+    <div class="controls">
+        <div angucomplete-alt id="from"
+                          placeholder="Search origin"
+                          pause="100"
+                          selected-object="getDestinations"
+                          local-data="origins"
+                          search-fields="nombre"
+                          title-field="nombre"
+                          minlength="1"
+                          input-class="form-control form-control-small"></div>
+    </div>
+</div>
+<div class="col-md-6">
+    <label class="control-label" for="to">To</label>
+    <div class="controls">
+        <div angucomplete-alt id="to"
+             placeholder="Search destination"
+             pause="100"
+             selected-object="setDestination"
+             local-data="destinations"
+             search-fields="nombre"
+             title-field="nombre"
+             minlength="1"
+             input-class="form-control form-control-small"></div>
+
+
+    </div>
+</div>
