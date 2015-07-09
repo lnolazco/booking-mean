@@ -1,0 +1,4 @@
+{"_id":{"$oid":"553c3885954bf7daee4e03ac"},"class":"E","codeDestination":"MAD","codeOrigin":"BCN","depart":{"$date":"2015-07-06T00:59:49.984Z"},"number":"RA0001","price":50,"return":{"$date":"2015-08-06T00:59:49.984Z"}}
+{"_id":{"$oid":"553c3988954bf7daee4e03ad"},"class":"E","codeDestination":"MAD","codeOrigin":"BCN","depart":{"$date":"2015-07-07T08:00:00.000Z"},"number":"RA0002","price":50,"return":{"$date":"2015-08-09T08:00:00.000Z"}}
+{"_id":{"$oid":"553c39af954bf7daee4e03ae"},"class":"E","codeDestination":"MAD","codeOrigin":"BCN","depart":{"$date":"2015-07-07T10:00:00.000Z"},"number":"RA0003","price":80,"return":{"$date":"2015-08-09T08:00:00.000Z"}}
+{"_id":{"$oid":"553c39dc954bf7daee4e03af"},"class":"E","codeDestination":"MAD","codeOrigin":"BCN","depart":{"$date":"2015-07-07T12:00:00.000Z"},"number":"RA0004","price":90,"return":{"$date":"2015-08-09T12:00:00.000Z"}}
