@@ -35,6 +35,17 @@ localhost:3000
 * Add new CRUD modules.
 * Have fun...
 
+## Technologies
+
+I used:
+* Database MongoDB.
+* NodeJs and Express for the backend.
+* AngularJs, Bootstrap (Html5 CSS3) for frontend.
+* WebSockets for the comunication.
+* Passport for the login.
+* Grunt for the automatation of some tasks.
+* Karma for the tests.
+
 ##Todo
 
 * Correct tests
